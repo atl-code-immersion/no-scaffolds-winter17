@@ -1,0 +1,8 @@
+<div style="margin:50px;">
+	<h3>Create a User</h3>
+	<%= form_tag example_path do %>
+		<%= text_field_tag :name, nil, placeholder: "Your Name" %><br />
+		<%= number_field_tag :age, nil, placeholder: "Your Age" %><br />
+		<%= submit_tag "Create Profile" %>
+	<% end %>
+</div>
